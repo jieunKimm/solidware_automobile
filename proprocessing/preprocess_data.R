@@ -1,5 +1,6 @@
 #read txt file and give header
-txt_auto <- read.table("UCI_automobile_data.txt", header = FALSE, sep = ",")
+txt_auto <- read.table("C:\\Users\\world\\Documents\\solidware_automobile\\proprocessing\\UCI_automobile_data.txt",
+                       header = FALSE, sep = ",")
 colnames(txt_auto) <- c("symboling","normalized-losses", "make","fuel-type", "aspiration", "num-of-doors", "body-style",
                     "drive-wheels", "engine-location", "wheel-base", "length", "width", "height", "curb-weight", 
                     "engine-type", "num-of-cylinders", "engine-size", "fuel-system", "bore", "stroke", 
